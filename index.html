@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=ZCOOL+QingKe+HuangYou&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c502e343d0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="gradient flex">
+    <div class="container ">
+        <section class="calculator flex flex--col ">
+            <section class="destop flex flex--col">
+                <div class="flex destop_head">
+                    <div class="return">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <div class="current operator flex flex-col">
+                        <h1 class="show-current f3">0999</h1>
+                        <i class="fa-solid fa-minus f2"></i>
+                    </div>
+                </div>
+
+                <div class="inset">
+                    <span class="operator"></span>
+                    <h1 class="show-insert f3">333</h1>
+                </div>
+                <div class="result">
+                    <h1 class="show-result f4">000</h1>
+                </div>
+            </section>
+            <section class="logo">
+                <span class="logo style--logo f4">Nikini</span>
+            </section>
+            <section class="buttons flex f3 ">
+                <div class="btns flex flex--col">
+                    <div class="btn--actions flex ">
+                        <button class="btn btn--actio reset">C</button>
+                        <button class="btn btn--action isnegative flex flex--center">
+                            &#x00028;<i class="fa-solid fa-minus icon_negative"></i>&#x00029;
+                        </button>
+                        <button class="btn btn--action del">
+                            <i class="fa-solid fa-delete-left"></i>
+                        </button>
+                    </div>
+                    <div class="btn--numbers flex  flex--wrap">
+                        <button class="btn btn--number num9" data-num="7">7</button>
+                        <button class="btn btn--number num8" data-num="8">8</button>
+                        <button class="btn btn--number num7" data-num="9">9</button>
+                        <button class="btn btn--number num6" data-num="4">4</button>
+                        <button class="btn btn--number num5" data-num="5">5</button>
+                        <button class="btn btn--number num4" data-num="6">6</button>
+                        <button class="btn btn--number num3" data-num="1">1</button>
+                        <button class="btn btn--number num2" data-num="2">2</button>
+                        <button class="btn btn--number num1" data-num="3">3</button>
+                        <button class="btn btn--number num0" data-num="0">0</button>
+                        <button class="btn btn--number num00" data-num="00">00</button>
+                        <button class="btn btn--number point" data-num=".">.</button>
+                    </div>
+                </div>
+                <div class="flex flex--col">
+                    <div class="btn--operators flex flex--col">
+                        <button class="btn btn--operator divide" data-operator="divide"><i
+                                class="fa-solid fa-divide"></i></button>
+                        <button class="btn btn--operator multiply" data-operator="multiply"><i
+                                class="fa-solid fa-xmark"></i></button>
+                        <button class="btn btn--operator subtract" data-operator="subtract"><i
+                                class="fa-solid fa-minus"></i></button>
+                        <button class="btn btn--operator plus" data-operator="plus"><i
+                                class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <button class="btn equal"> <i class="fa-solid fa-equals"></i></button>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
