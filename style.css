@@ -1,6 +1,6 @@
 /*---Custom property---*/
 :root{
-    --font--btn:'Dosis',sans-serif;
+    --font--btn:'Arimo', 'sans-serif';
     --font--logo:'ZCOOL QingKe HuangYou', cursive;
     --color_item--light:234,226,183;
     --color_item--dark:0,48,73;
@@ -23,7 +23,7 @@ html{
 body{
     font-size: 1.6rem;
     min-height:100vh;
-    font-family: 'Dosis','ZCOOL QingKe HuangYou', sans-serif, cursive;
+    font-family: 'Arimo', 'ZCOOL QingKe HuangYou', sans-serif, cursive;
     line-height: 1,4;
     color:rgba(var(--color_text),1)
 }
@@ -78,11 +78,11 @@ textarea{
 }
 .f3{
     font-size: 3.6rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 .f4{
     font-size: 5rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 .style--logo{
     color:rgba(0,0,0,1);
@@ -111,7 +111,7 @@ textarea{
 }
 .destop{
     width:100%;
-    height:173px;
+    height:150px;
     border-radius: 10px;
     color:rgba(var(--color_text),);
     background-color: rgba(var(--color_item--light),1);
