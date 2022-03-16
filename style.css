@@ -131,13 +131,16 @@ textarea{
     color:rgba(var(--color_text),);
     background-color: rgba(var(--color_item--light),1);
     cursor:pointer;
-    transition: all ease-in-out 250ms;
+    transition: all ease-in-out 100ms;
 }
-.btn:focus{
-    box-shadow: -3px 6px 0px #D1CBA7;
-    transform: translate(1px,2px);
+.btn:active{
+    box-shadow: -3px 6px 0px #9e997f;
+    transform: translate(-2px,3px);
 }
-
+.active{
+    box-shadow: -3px 6px 0px #9e997f;
+    transform: translate(-2px,3px);
+}
 
 .destop_head{
     width:100%;
